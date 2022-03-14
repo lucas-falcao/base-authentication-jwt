@@ -1,0 +1,7 @@
+C:\Users\user\Documents\Programacao\dotnet\Autenticacao01\Autenticacao01\obj\Debug\net5.0\Autenticacao01.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Programacao\dotnet\Autenticacao01\Autenticacao01\obj\Debug\net5.0\Autenticacao01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Programacao\dotnet\Autenticacao01\Autenticacao01\obj\Debug\net5.0\Autenticacao01.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Programacao\dotnet\Autenticacao01\Autenticacao01\obj\Debug\net5.0\Autenticacao01.AssemblyInfo.cs
+C:\Users\user\Documents\Programacao\dotnet\Autenticacao01\Autenticacao01\obj\Debug\net5.0\Autenticacao01.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Programacao\dotnet\Autenticacao01\Autenticacao01\obj\Debug\net5.0\Autenticacao01.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Documents\Programacao\dotnet\Autenticacao01\Autenticacao01\obj\Debug\net5.0\Autenticacao01.MvcApplicationPartsAssemblyInfo.cache
