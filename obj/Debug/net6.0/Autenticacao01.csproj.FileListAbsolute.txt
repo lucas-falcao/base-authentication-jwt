@@ -65,3 +65,7 @@ C:\Users\user\Documents\Programacao\dotnet\Autenticacao01\Autenticacao01\obj\Deb
 C:\Users\user\Documents\Programacao\dotnet\Autenticacao01\Autenticacao01\obj\Debug\net6.0\ref\Autenticacao01.dll
 C:\Users\user\Documents\Programacao\dotnet\Autenticacao01\Autenticacao01\obj\Debug\net6.0\Autenticacao01.pdb
 C:\Users\user\Documents\Programacao\dotnet\Autenticacao01\Autenticacao01\obj\Debug\net6.0\Autenticacao01.genruntimeconfig.cache
+C:\Users\user\Documents\Programacao\dotnet\Autenticacao01\Autenticacao01\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\user\Documents\Programacao\dotnet\Autenticacao01\Autenticacao01\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\user\Documents\Programacao\dotnet\Autenticacao01\Autenticacao01\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\user\Documents\Programacao\dotnet\Autenticacao01\Autenticacao01\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

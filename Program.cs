@@ -1,5 +1,7 @@
 using System.Text;
 using Autenticacao01.Authentication;
+using Autenticacao01.Repositories;
+using Autenticacao01.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -16,6 +18,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
+builder.Services.AddTransient<IDiarioRepository, DiarioRepository>();
+builder.Services.AddTransient<IUserService, UserService>();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 //adding Authentication
 builder.Services.AddDbContext<ApplicationContext>(c => 
         c.UseSqlServer(builder.Configuration.GetConnectionString("banco")));

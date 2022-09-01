@@ -76,18 +76,23 @@ namespace Autenticacao01.Controllers
                 }
                 var authSigninkey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Secret"]));
                 var token = new JwtSecurityToken(
-                    issuer:_configuration["JWT:ValidIssuer"],
-                    audience:_configuration["JWT:ValidAudience"],
+                    issuer: _configuration["JWT:ValidIssuer"],
+                    audience: _configuration["JWT:ValidAudience"],
                     expires: DateTime.Now.AddHours(5),
-                    claims:authClaim,
+                    claims: authClaim,
                     signingCredentials: new SigningCredentials(authSigninkey, SecurityAlgorithms.HmacSha256)
                 );
-                return Ok(new {
+                return Ok(new
+                {
                     token = new JwtSecurityTokenHandler().WriteToken(token),
 
                 });
             }
+            // var us = User;
+            // var us2 = userManager.Users.FirstOrDefault(c => c.UserName == us.Identity.Name);
             return Unauthorized();
         }
+
+        
     }
 }
